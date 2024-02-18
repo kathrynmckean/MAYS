@@ -1,0 +1,143 @@
+body   {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+
+/* the sticky header */
+
+.header   {
+    background-color: #BDD0D2;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    top: 1px;
+    position: sticky;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.navRow {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navRight {
+   
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   margin: 30px 0px;
+}
+
+.phone  {
+    padding: 5px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.navButtonFrame {
+    margin-top: 15px;
+}
+.navButton {
+    color: black;
+    font-size: 15px;
+    padding: 2px;
+    /* background-color: aqua; */
+}
+
+
+/* the call to action on the front page */
+
+.hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 280px;
+    /* justify-content: center; */
+}
+
+#hookPhrase {
+    width: 600px;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.searchContainer {
+    background-color: #CCDAC9;
+  padding: 20px 50px;
+  border-radius: 20px;
+  text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+.zipSearchFrame {
+    background-color: #2D5826;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.zipSearch {
+    width: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+}
+
+.searchButton {
+    padding: 8px 20px;
+    /* top: 10px; */
+}
+
+
+/* animal photos */
+
+.animalCard {
+    height: 350px;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+.animalFrame {
+    margin-top: 40px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    scroll-margin-inline-start: 20px;
+}
+
+.secondPage {
+    height: 1000px;
+}
+.servicesFrame {
+    height: 500px;
+    background-color: aquamarine;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
